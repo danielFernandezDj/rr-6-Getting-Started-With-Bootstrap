@@ -1,5 +1,7 @@
 import './App.css';
 
+// Component
+import Button from './components/Button'
 
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div className="App">
       <h2>Bootstrap Website</h2>
 
+      <Button />
     </div>
   );
 }
